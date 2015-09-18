@@ -1,6 +1,8 @@
 package com.tatian.up.engine.controller;
 
-public class Constants {
+import com.tatian.up.utils.NotProguard;
+
+public class Constants implements NotProguard{
 
 	public static String SDK_NAME = "UniversalPlugSDK";
 	
