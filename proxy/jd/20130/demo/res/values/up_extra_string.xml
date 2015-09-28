@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="up_exit_title">是否退出游戏?</string>
+    <string name="up_exit_confirm">确定</string>
+    <string name="up_exit_cancel">再玩玩</string>
+    <string name="up_splash_path_1"></string>
+    <string name="up_splash_path_2"></string>
+    <string name="up_splash_path_3"></string>
+    <string name="up_splash_path_4"></string>
+    <string name="up_splash_path_5"></string>
+    <string name="up_splash_duration">5</string>
+    <string name="up_main_activity">com.tivicloud.demo.MainActivity</string>
+    <string name="up_about_content">版权声明:\n\n\n版权声明正文</string>
+    <string name="up_about_title">关于</string>
+
+</resources>

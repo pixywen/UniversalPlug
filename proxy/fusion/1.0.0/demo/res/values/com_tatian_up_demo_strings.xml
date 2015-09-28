@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="up_demo_login">更多游戏</string>
+    <string name="up_demo_login_faild">登录失败</string>
+    <string name="up_demo_login_cancel">取消登录</string>
+    <string name="up_demo_switch_user">游戏声音</string>
+    <string name="up_demo_logout">退出</string>
+    <string name="up_demo_show_toolbar">显示工具条</string>
+    <string name="up_demo_hide_toolbar">隐藏工具条</string>
+    <string name="up_demo_pay">支付</string>
+    <string name="up_demo_notlogin">未登录</string>
+    <string name="up_demo_hello">您好！</string>
+
+</resources>

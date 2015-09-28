@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="up_exit_title">是否退出游戏?</string>  <!--退出 Dialog 标题 -->
+    <string name="up_exit_confirm">确定</string>         <!--退出 Dialog 确认项 文字 -->
+    <string name="up_exit_cancel">再玩玩</string>        <!--退出 Dialog 取消项 文字 -->
+    <string name="up_splash_path_1">splash_1.png</string>            <!--闪屏图片1 路径(只允许位于assests下) -->
+    <string name="up_splash_path_2">splash_2.png</string>            <!--闪屏图片2 路径(只允许位于assests下) -->
+    <string name="up_splash_path_3">splash_3.png</string>            <!--闪屏图片3 路径(只允许位于assests下) -->
+    <string name="up_splash_path_4"></string>            <!--闪屏图片4 路径(只允许位于assests下) -->
+    <string name="up_splash_path_5"></string>            <!--闪屏图片5 路径(只允许位于assests下) -->
+    <string name="up_splash_duration">3000</string>         <!--闪屏间隔(单位毫秒 不能为空) -->
+    <string name="up_main_activity">com.tatian.up.demo.MainActivity</string><!--主Activity -->
+    <string name="up_about_content">版权声明:\n\n\n版权声明正文</string><!--关于 正文 -->
+    <string name="up_about_title">关于</string><!--关于 标题 -->
+
+</resources>

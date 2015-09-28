@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tatian.up.demo.fusion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <!-- ups extra permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <!-- egame extra permission -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    
+    <!-- jd extra permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <!-- unipay extra permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo72"
+        android:label="@string/ups_app_name"
+        android:name="com.tatian.up.demo.DemoApplication" >
+        <activity
+            android:name="com.tatian.up.demo.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+            <intent-filter>
+                
+            </intent-filter>
+        </activity>
+
+        <!-- ups SDK 配置项 -->
+        
+         <activity
+            android:name="com.tatian.up.ui.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.tatian.up.ui.ExceptionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        
+        
+        <!-- egame -->
+
+        <meta-data
+            android:name="EGAME_CHANNEL"
+            android:value="80010395" />
+
+        <!-- 根据游戏实际情况修改screenOrientation属性 -->
+        <activity
+            android:name="cn.egame.terminal.paysdk.EgamePayActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        
+        
+        <!-- unipay -->
+        <meta-data
+            android:name="wostore_billing_otherpay"
+            android:value="false" />
+        <meta-data
+            android:name="wostore_billing_chinaunicom"
+            android:value="true" />
+        <meta-data
+            android:name="wostore_billing_chinamobile"
+            android:value="false" />
+        <meta-data
+            android:name="wostore_billing_chinatele"
+            android:value="false" />
+
+       
+        <service android:name="com.unicom.wostore.unipay.paysecurity.SecurityServiceFramework" >
+            <intent-filter>
+
+                <!-- 请务必将action name 按照应用包名+".unicom.wostore.unipay.securityserviceframework"进行组装 -->
+                <action android:name="com.tatian.up.demo.fusion.unicom.wostore.unipay.securityserviceframework" />
+            </intent-filter>
+        </service>
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+
+        <!-- alipay sdk end -->
+
+        
+    </application>
+
+</manifest>

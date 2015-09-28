@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalPlugSDK>
+
+     <RunConfig
+        appId="161"
+        appKey=""
+        appName="UniversalPlug测试Demo_JD"
+        channelId="2"
+        checkVersion="false"
+        debug="true"
+        extraSDK="JD"
+        language="zh"/>
+        
+</UniversalPlugSDK>

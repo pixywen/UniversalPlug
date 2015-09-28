@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalPlugSDK>
+
+     <RunConfig
+        appId="161"
+        appKey=""
+        appName="墨明棋妙"
+        channelId="2"
+        checkVersion="false"
+        debug="true"
+        extraSDK="FUSION"
+        extraLIB="MODE_JD"
+        language="zh"/>
+        
+</UniversalPlugSDK>
