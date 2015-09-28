@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+    <index channel="MM" key="1" value="30000883477201">
+	</index>
+
+	<index channel="MM" key="2" value="30000883477202">
+	</index>
+	
+	<index channel="MM" key="3" value="30000883477203">
+	</index>
+	
+	<index channel="MM" key="4" value="30000883477204">
+	</index>
+	
+	<index channel="MM" key="5" value="30000883477205">
+	</index>
+	
+	<meta date="20150205" desc="mm">
+	</meta>
+    
+</TivicloudSDK>

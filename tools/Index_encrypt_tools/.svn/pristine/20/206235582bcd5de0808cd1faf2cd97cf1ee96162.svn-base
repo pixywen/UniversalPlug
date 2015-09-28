@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+    <index channel="MM" key="1" value="30000883477201">
+	</index>
+
+	<index channel="MM" key="2" value="30000883477202">
+	</index>
+	
+	<index channel="MM" key="3" value="30000883477203">
+	</index>
+	
+	<index channel="MM" key="4" value="30000883477204">
+	</index>
+	
+	<index channel="MM" key="5" value="30000883477205">
+	</index>
+	
+	<index channel="UNIPAY" key="1" value="003">
+	</index>
+
+	<index channel="UNIPAY" key="2" value="002">
+	</index>
+	
+	<index channel="UNIPAY" key="3" value="004">
+	</index>
+
+	<index channel="UNIPAY" key="4" value="005">
+	</index>
+	
+	<index channel="UNIPAY" key="5" value="006">
+	</index>
+	
+	<index channel="EGAME" key="1" value="5125299">
+	</index>
+
+	<index channel="EGAME" key="2" value="5125300">
+	</index>
+	
+	 <index channel="EGAME" key="3" value="5137112">
+	</index>
+
+	<index channel="EGAME" key="4" value="5137113">
+	</index>
+	
+	 <index channel="EGAME" key="5" value="5137114">
+	</index>
+	
+	<meta date="20150205" desc="fusion">
+	</meta>
+    
+</TivicloudSDK>

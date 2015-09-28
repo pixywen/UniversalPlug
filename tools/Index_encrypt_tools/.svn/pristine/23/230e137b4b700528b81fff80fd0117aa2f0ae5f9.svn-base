@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+    <index channel="UPAY" key="1" value="1">
+	</index>
+	
+	<index channel="UPAY" key="2" value="test_app_g20">
+	</index>
+    
+
+</TivicloudSDK>

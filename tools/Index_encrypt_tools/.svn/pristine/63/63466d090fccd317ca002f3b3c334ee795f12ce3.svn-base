@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+	<index channel="EGAME" key="6" value="5094205">
+	</index>
+	
+	<index channel="UNIPAY" key="6" value="068">
+	</index>
+	
+	<index channel="MM" key="6" value="30000883477201">
+	</index>
+	
+	<index channel="JD" key="6" value="001">
+	</index>
+	
+
+	<index channel="MM" key="1" value="30000883477201">
+	</index>
+
+	<index channel="MM" key="2" value="30000883477202">
+	</index>
+
+
+	<index channel="UNIPAY" key="1" value="003">
+	</index>
+
+	<index channel="UNIPAY" key="2" value="002">
+	</index>
+
+	<index channel="JD" key="1" value="001">
+	</index>
+	
+	<index channel="JD" key="1" value="002">
+	</index>
+
+</TivicloudSDK>

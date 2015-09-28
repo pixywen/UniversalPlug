@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+    <index channel="UNIPAY" key="1" value="003">
+	</index>
+
+	<index channel="UNIPAY" key="2" value="002">
+	</index>
+	
+	<index channel="UNIPAY" key="3" value="004">
+	</index>
+
+	<index channel="UNIPAY" key="4" value="005">
+	</index>
+	
+	<index channel="UNIPAY" key="5" value="006">
+	</index>
+	
+	<meta date="20150205" desc="UNIPAY">
+	</meta>
+
+</TivicloudSDK>

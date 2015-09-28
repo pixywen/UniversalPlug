@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+	<index channel="360" key="1" value="id_1">
+	</index>
+
+	<index channel="360" key="2" value="id_2">
+	</index>
+
+	<index channel="360" key="3" value="id_3">
+	</index>
+
+	<index channel="360" key="4" value="id_4">
+	</index>
+
+	<index channel="360" key="5" value="id_5">
+	</index>
+	
+</TivicloudSDK>

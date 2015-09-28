@@ -1,0 +1,10 @@
+# ignore /bin /gen /obj
+
+bin
+#gen
+#obj
+
+*.xml
+*.dat
+
+ 

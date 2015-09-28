@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TivicloudSDK>
+
+    <index channel="EGAME" key="1" value="5137568">
+	</index>
+
+	<index channel="EGAME" key="2" value="5137569">
+	</index>
+	
+	 <index channel="EGAME" key="3" value="5137570">
+	</index>
+
+	<index channel="EGAME" key="4" value="5137571">
+	</index>
+	
+	 <index channel="EGAME" key="5" value="5137572">
+	</index>
+	
+	 <meta date="20150205" desc="EGAME">
+	</meta>
+
+</TivicloudSDK>
